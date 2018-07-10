@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Contact Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -17,19 +17,17 @@
           <a href="contact.html">Contacts</a>
         </section> 
     </header>
-    <div>
+    <div class="contact">
     <h2>Contact Me</h2>
-    <form>
-        <div class=fname>
-        <lable for="name">Name</lable>
-        <input type="text" id="name" name="name">
-        </div>
-        <div class=emaila>
-        <lable for="email">Email Address</lable>
-        <input type="email" id="email" email="email">
-        </div>
-        <lable for="message">Message</lable>
-        <textarea>Enter message</textarea>
+    <form action="/action_page.php">
+    Name:<br>
+    <input type="text" name="name"><br>
+    Email:<br>
+    <input type="email" email="email"><br>
+    Message:<br>
+    <textarea id="message" name="message" placeholder="Write something.."></textarea><br>
+    <input type="submit">
+     
     </form>
     
     </div>
