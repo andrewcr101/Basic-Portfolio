@@ -66,9 +66,13 @@ textarea {
 }
 
 footer {
-    clear: left;
-    float: bottom;
-    padding: 40px 0;
+    /*clear: left;*/
+    /*float: bottom;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 960px;    
+    /*padding: 40px 0;*/
     text-align: center;
     border-top-style: solid;
     border-top-color: #4aaaa5;
